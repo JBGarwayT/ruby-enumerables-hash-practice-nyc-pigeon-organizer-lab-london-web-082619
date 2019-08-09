@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
     pigeon_list[name[i]][attribute] << second_attribute.to_s
      i += 1
    end
-    end#binding.pry
-  end
+    end
+  end#binding.pry
   pigeon_list
 end
