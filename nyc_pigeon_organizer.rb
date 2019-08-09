@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, specific_attribute|
     specific_attribute.each do |second_attribute, name|
      while i < name.length
-     #binding.pry
+     
     if !pigeon_list[name[i]]
       pigeon_list[name[i]] = {}
     end
@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
     pigeon_list[name[i]][attribute] << second_attribute.to_s
      i += 1
    end
-    end
+    end#binding.pry
   end
   pigeon_list
 end
