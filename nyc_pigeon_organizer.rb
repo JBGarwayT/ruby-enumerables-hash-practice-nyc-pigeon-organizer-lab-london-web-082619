@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
      while i < name.length
      pigeon_list[name] = 
      i += 1
-     #binding.pry
+     binding.pry
     end
   end
   pigeon_list
