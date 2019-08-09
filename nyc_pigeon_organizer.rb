@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, specific_attribute|
     specific_attribute.each do |colour, name|
       i = 0
-      binding.pry
+      
       if pigeon_list == name[i] && pigeon_list == attribute
         
       else
@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
     end
     end
            
-
+binding.pry
     end
   end
   pigeon_list
