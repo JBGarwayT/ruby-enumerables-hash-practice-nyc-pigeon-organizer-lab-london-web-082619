@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
     if !pigeon_list[name[i]][attribute]
       pigeon_list[name[i]][attribute] = []
     end
+    pigeon_list[name[i]][attribute] << second_attribute
      
      i += 1
    end
