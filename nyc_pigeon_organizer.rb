@@ -5,12 +5,12 @@ def nyc_pigeon_organizer(data)
     specific_attribute.each do |second_attribute, name|
       i = 0
       binding.pry
-      #pigeon_list[:name[i]] = {:attribute}
+      
       if pigeon_list == name[i] && pigeon_list == attribute
         
       else
       while i < name.length
-      
+      #pigeon_list[:name[i]] = {:attribute}
       i += 1
     end
     end
