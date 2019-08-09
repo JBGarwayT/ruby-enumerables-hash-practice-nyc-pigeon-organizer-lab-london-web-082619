@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       pigeon_list[name[i]] = {}
     end
    
-    if pigeon_list[name[i]][]
+    if pigeon_list[name[i]][attribute[i]]
       
      
      i += 1
