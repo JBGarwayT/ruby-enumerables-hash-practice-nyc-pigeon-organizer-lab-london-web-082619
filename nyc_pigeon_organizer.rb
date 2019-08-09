@@ -9,9 +9,9 @@ def nyc_pigeon_organizer(data)
     if !pigeon_list[name[i]]
       pigeon_list[name[i]] = {}
     end
-   
     if !pigeon_list[name[i]][attribute]
       pigeon_list[name[i]][attribute] = {}
+    end
      
      i += 1
    end
