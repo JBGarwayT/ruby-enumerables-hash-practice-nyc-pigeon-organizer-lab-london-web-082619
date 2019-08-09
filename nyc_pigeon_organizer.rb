@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     specific_attribute.each do |second_attribute, name|
      name.each do |pigeon_name|
        #binding.pry
-    if !pigeon_list[pigeon_name]]
+    if !pigeon_list[pigeon_name]
       pigeon_list[pigeon_name] = {}
     end
     if !pigeon_list[pigeon_name][attribute]
