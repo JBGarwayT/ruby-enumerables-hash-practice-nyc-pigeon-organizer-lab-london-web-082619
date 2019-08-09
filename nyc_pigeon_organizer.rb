@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
      pigeon_list[name] = 
      i += 1
      binding.pry
+   end
     end
   end
   pigeon_list
