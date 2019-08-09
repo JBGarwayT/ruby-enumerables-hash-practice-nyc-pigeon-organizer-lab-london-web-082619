@@ -1,7 +1,7 @@
 require"pry"
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
-  i = 0
+ 
   data.each do |attribute, specific_attribute|
     specific_attribute.each do |second_attribute, name|
       binding.pry
@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
       else
       while i < name.length
       #pigeon_list[name[i]][attribute] = [second_attribute]
-      
+       i = 0
       i += 1
     end
     end
