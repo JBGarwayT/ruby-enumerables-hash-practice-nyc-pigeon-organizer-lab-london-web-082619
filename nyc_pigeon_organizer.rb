@@ -6,10 +6,12 @@ def nyc_pigeon_organizer(data)
     specific_attribute.each do |second_attribute, name|
      while i < name.length
      binding.pry
-     if !pigeon_list[name[i]]
-     pigeon_list[name[i]] = {}
-     
-     
+    if !pigeon_list[name[i]]
+      pigeon_list[name[i]] = {}
+    end
+   
+    if pigeon_list[name[i]][]
+      
      
      i += 1
    end
