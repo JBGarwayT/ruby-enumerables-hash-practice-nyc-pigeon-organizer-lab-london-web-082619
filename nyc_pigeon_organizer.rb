@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
     specific_attribute.each do |second_attribute, name|
       i = 0
       binding.pry
+      
       if pigeon_list == name[i] && pigeon_list == attribute
         
       else
